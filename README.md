@@ -11,7 +11,7 @@
 ## Clone this project
 
 ```bash
-> git clone https://github.com/affisjunianto/botwasapv5
+> git clone https://github.com/ELYugo/ELYugoBotv1.git
 ```
 
 ## Install the dependencies:
@@ -19,7 +19,7 @@ Before running the below command, make sure you're in the project directory that
 you've just cloned!!
 
 ```bash
-> cd botwasapv5
+> cd ELYugoBotv1
 > bash install.sh
 ```
 
@@ -29,6 +29,8 @@ you've just cloned!!
 ```
 
 ## Features
+
+Este bot fue modificado por: ᭨ꦶ꧖ɛʟʏʊɢø∭⃟⃤⃢🇻🇪
 
 | Sticker Creator |                Feature           |
 | :-----------: | :--------------------------------: |

@@ -116,8 +116,8 @@ exports.reglevelahf = (command, pushname, getLevelingLevel, sender, ahf) => {
 
 exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, _registered, uangku, role, premi) => { 
 	return `
-┏━━━⊱  *ABOUT USER*  ⊰━━┓
-┣⊱ *Nama* : ${pushname}
+┏━━━⊱  *ACERCA DEL USUARIO*  ⊰━━┓
+┣⊱ *Nama* : ${pushname} 
 ┣⊱ *Premium* : ${premi}
 ┣⊱ *Nomer* : wa.me/${sender.split("@")[0]}
 ┣⊱ *Uang mu* : Rp${uangku}
@@ -125,20 +125,20 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ┣⊱ *Level* : ${getLevelingLevel(sender)}
 ┣⊱ *Role* : ${role}
 ┣⊱ *User register* : ${_registered.length}
-┗━━━⊱  ⸨ *AFFIS* ⸩  ⊰━━━━┛
+┗━━━⊱  ⸨ *Bot ᭨ꦶ꧖ɛʟʏʊɢø∭⃟⃤⃢🇻🇪 * ⸩  ⊰━━━━┛
 
  *${prefix}info*
  *${prefix}donasi*
  *${prefix}owner*
 
-┏━━⊱ *MAKER MENU* ⊰━━┓
+┏━━⊱ *MENÚ DEL FABRICANTE* ⊰━━┓
 ┣⊱ *${prefix}sticker* 
 ┣⊱ *${prefix}quotemaker* <text|author>
 ┣⊱ *${prefix}qrcode* <text>
 ┣⊱ *${prefix}ttp*
 ┣⊱ *${prefix}stickerhide* <text>
 ┣⊱ *${prefix}emoji*
-┣━━⊱  *FUN MENU*  ⊰━━━┫
+┣━━⊱  *MENÚ DIVERTIDO*  ⊰━━━┫
 ┣⊱ *${prefix}lirik* <text>
 ┣⊱ *${prefix}artinama*
 ┣⊱ *${prefix}chord* <text>
@@ -150,10 +150,10 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ┣⊱ *${prefix}tampar*
 ┣⊱ *${prefix}moddroid* <teks> *[VIP]*
 ┣⊱ *${prefix}happymod* <teks> *[VIP]*
-┣━━⊱ *MUTUAL* ⊰━━━━━┫
+┣━━⊱ *MUTUO* ⊰━━━━━┫
 ┣⊱ *${prefix}mutual*
 ┣⊱ *${prefix}next*
-┣━━⊱ *MEDIA MENU* ⊰━━┫
+┣━━⊱ *MENÚ DE MEDIOS* ⊰━━┫
 ┣⊱ *${prefix}brainly* *[VIP]*
 ┣⊱ *${prefix}pinterest*
 ┣⊱ *${prefix}resepmasakan* <teks>
@@ -184,7 +184,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ┣⊱ *${prefix}dompet*
 ┣⊱ *${prefix}giftlimit* <tag jumblah>
 ┣⊱ *${prefix}leaderboard* <jumblah>
-┣━━⊱ *GROUP MENU* ⊰━┫
+┣━━⊱ *MENÚ GRUPO* ⊰━┫
 ┣⊱ *${prefix}delete* <tag message>
 ┣⊱ *${prefix}hidetag*
 ┣⊱ *${prefix}blocklist*
@@ -207,7 +207,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ┣⊱ *${prefix}welcome* [1/0]
 ┣⊱ *${prefix}antilink* [1/0]
 ┣⊱ *${prefix}nobadword* [enable/disable]
-┣━━⊱ *OWNER MENU* ⊰━┫
+┣━━⊱ *MENÚ PROPIETARIO* ⊰━┫
 ┣⊱ *${prefix}bc* <teks>
 ┣⊱ *${prefix}addbadword* <text>
 ┣⊱ *${prefix}delbadword* <text>
@@ -222,17 +222,17 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ┣⊱ *${prefix}event* [1/0]
 ┣⊱ *${prefix}clone* <tag>
 ┣⊱ *${prefix}setppbot*
-┣━━⊱ *THANGKS TO* ⊰━━┫
+┣━━⊱ *GRACIAS A* ⊰━━┫
 ┃
 ┣⊱ *AFFIS JUNIANTO* <dev>
 ┣⊱ *FADHIL GRAPHY* <partner>
 ┣⊱ *MHANKBARBARS* <sc ori>
 ┣⊱ *MYBOT TEAM* <team>
 ┃
-┣⊱ NOTE : TQTO DI HAPUS
-┃ GW GAK UP LAGI OKE
+┣⊱ NOTA: TQTO SE ELIMINA
+┃ GW NO VOLVER A ARRIBA OKAY
 ┃
-┗━━⊱  ⸨ *X-BOT* ⸩  ⊰━━━━┛
+┗━━⊱  ⸨ *Bot ᭨ꦶ꧖ɛʟʏʊɢø∭⃟⃤⃢🇻🇪* ⸩  ⊰━━━━┛
 `
 }
 

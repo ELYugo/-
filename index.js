@@ -39,7 +39,7 @@ const { ind } = require('./language')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:ELYügø\n' 
+            + 'FN:ELYugo\n' 
             + 'ORG: Pengembang XBot;\n' 
             + 'TEL;type=CELL;type=VOICE;waid=584145982731:+58 414-5982731\n' 
             + 'END:VCARD' 
@@ -303,7 +303,7 @@ client.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Hola  @${num.split('@')[0]}\Bienvenido al grupo *${mdata.subject}* que se sienta como en casa aquí`
+				teks = `Hola  @${num.split('@')[0]}\Bienvenido al grupo *${mdata.subject}* que se sienta como en casa aquí -Omi es gay xd`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -313,7 +313,7 @@ client.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `finalmente la carga del grupo se reduce, adiós 🥳 @${num.split('@')[0]} Tus servicios serán enterrados profundamente²`
+				teks = `finalmente la carga del grupo se reduce, adiós 🥳 @${num.split('@')[0]} Tus servicios serán enterrados profundamente -jeffer es gay xd²`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
